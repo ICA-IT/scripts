@@ -39,7 +39,7 @@ cd /var/lib/opsi/workbench
 echo cloning $1
 git clone $1
 #sudo chown -R opsiconfd:pcpatch $2
-#sudo chmod -R g+rwx $2
+#sudo chmod -R g+rwx $2 
 sudo opsi-set-rights $2
 cd $2
 sudo chown -R johnkuras .git*
