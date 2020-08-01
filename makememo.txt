@@ -1,0 +1,9 @@
+opsi-makepackage
+opsi-package-manager -i 
+
+
+git add .
+git commit -m "comment"
+git push
+
+git pull
